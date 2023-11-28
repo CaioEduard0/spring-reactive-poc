@@ -1,0 +1,10 @@
+server:
+  port: 8091
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin
+
+viacep:
+  url: https://viacep.com.br/ws/%s/json/
