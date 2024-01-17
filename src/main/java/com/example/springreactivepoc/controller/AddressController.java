@@ -1,4 +1,4 @@
-package com.example.springreactivepoc.resource;
+package com.example.springreactivepoc.controller;
 
 import com.example.springreactivepoc.entity.Address;
 import com.example.springreactivepoc.service.AddressService;
@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequiredArgsConstructor
-class AddressResource {
+class AddressController {
 
     private final AddressService addressService;
 

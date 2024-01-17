@@ -7,4 +7,5 @@ spring:
     password: admin
 
 viacep:
-  url: https://viacep.com.br/ws/%s/json/
+  url: https://opencep.com/v1/%s
+#  url: http://localhost:8085/%s
